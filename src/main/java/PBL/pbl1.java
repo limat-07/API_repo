@@ -22,6 +22,10 @@ public class pbl1 {
 		System.out.println("mario");
 		System.out.println("mario");
 		System.out.println("mario");
+		System.out.println("mario");
+		System.out.println("mario");
+		System.out.println("mario");
+		System.out.println("mario");
 		Assert.assertEquals(statusCode, 200);
 	}
 }
