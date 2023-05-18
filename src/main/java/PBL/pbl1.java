@@ -16,6 +16,9 @@ public class pbl1 {
 		System.out.println(response.getBody().asString());
 		System.out.println(response.getStatusLine());
 		System.out.println(response.getHeader("content-type"));
+		System.out.println("hello babe");
+		System.out.println("welcome tamilmani");	
+		System.out.println("you are requested to attend Vimal's marriage by Sunday go this week");
 		int statusCode = response.getStatusCode();
 		Assert.assertEquals(statusCode, 200);
 	}
