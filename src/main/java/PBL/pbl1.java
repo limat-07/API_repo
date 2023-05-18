@@ -17,6 +17,11 @@ public class pbl1 {
 		System.out.println(response.getStatusLine());
 		System.out.println(response.getHeader("content-type"));
 		int statusCode = response.getStatusCode();
+		System.out.println("mario");
+		System.out.println("mario");
+		System.out.println("mario");
+		System.out.println("mario");
+		System.out.println("mario");
 		Assert.assertEquals(statusCode, 200);
 	}
 }
